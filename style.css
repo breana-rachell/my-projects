@@ -1,4 +1,3 @@
-
 body {
  font-family: sans-serif;
 }
@@ -8,7 +7,7 @@ a {
 }
  
 a:hover {
- color: #00AEFF;
+ color: #00AEFF; 
 }
  
 .clear {
@@ -28,21 +27,20 @@ header h1 {
 header nav ul li {
  display: inline;
 }
-
-header nav ul li 
-  margin: 0 auto; 
-  width: 90%;
-  max-width: 600px;
-
-  .project
-
+ 
+#project-container, #aboutme {
+ margin: 0 auto;
+ width: 90%;
+ max-width: 600px;
+}
+ 
 .project {
  margin-bottom: 20px;
  padding-bottom: 10px;
  border-bottom: 1px solid rgb(0, 174, 255);
 }
  
-.project img {
+.project img, #aboutme img {
  width: 250px;
  float: left;
  margin-right: 10px;
@@ -53,4 +51,6 @@ header nav ul li
  font-size: 1.5em;
  margin-bottom: 10px;
 }
-
+ 
+ 
+ 
